@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 15px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+.close_button {
+  width: 180px;
+  height: 45px;
+  margin-left: 25px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 16px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.display_form {
+  gap: 10px;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.modalContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  flex: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.footer button {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.display_header {
+  flex: 20% 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cross_button {
+  justify-content: end;
+}
+
+.form_button {
+  width: 180px;
+  height: 45px;
+  margin-left: 25px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 16px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+select {
+  padding: 8px;
+}
+
+.filter-dropdown {
+  width: 250px;
+}
+
+.filter-container {
+  display: flex;
+  column-gap: 16px;
+}
